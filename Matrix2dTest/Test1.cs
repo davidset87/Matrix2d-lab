@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 using Matrix2dLib;
 
@@ -101,6 +102,16 @@ namespace MsTest
         {
             // Testowanie parsowania niepoprawnego łańcucha znaków (powinno rzucić wyjątek)
             Matrix2d.Parse("[[2, 3] [4, 5]]"); // Brakuje przecinka
+=======
+﻿namespace Matrix2dTest
+{
+    [TestClass]
+    public sealed class Test1
+    {
+        [TestMethod]
+        public void TestMethod1()
+        {
+>>>>>>> 2fe9cd7e1f47e71d7be49396911d99be86eae5f9
         }
     }
 }
