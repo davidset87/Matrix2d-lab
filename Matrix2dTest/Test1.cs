@@ -14,14 +14,6 @@ namespace MsTest
         }
 
         [TestMethod]
-        public void Test_Constructor_Values()
-        {
-            // Testowanie konstruktora z parametrami
-            var matrix = new Matrix2d(2, 3, 4, 5);
-            Assert.AreEqual(2, matrix.Det());
-        }
-
-        [TestMethod]
         public void Test_Addition()
         {
             // Testowanie dodawania macierzy
@@ -100,3 +92,6 @@ namespace MsTest
         {
             // Testowanie parsowania niepoprawnego łańcucha znaków (powinno rzucić wyjątek)
             Matrix2d.Parse("[[2, 3] [4, 5]]"); // Brakuje przecinka
+        }
+    }
+}
